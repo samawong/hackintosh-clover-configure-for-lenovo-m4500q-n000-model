@@ -416,7 +416,15 @@
 				<data>
 				EgQAAA==
 				</data>
-				<key>device_type</key>
+                                <key>framebuffer-cursormem</key>
+                                <data>
+                                AACQAA==
+                                </data>
+                                <key>framebuffer-patch-enable</key>
+                                <data>
+                                AQAAAA==
+                                </data>				
+                                <key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>model</key>
 				<string>Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller</string>
@@ -504,7 +512,7 @@
 			<false/>
 		</dict>
 		<key>ig-platform-id</key>
-		<string>0x0a260006</string>
+		<string>0x0D26000F</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -771,7 +779,7 @@
 				<key>Comment</key>
 				<string>1536MB -&gt; 2048MB for HD4200_4400_4600 Mobile</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				AQMDAwAAAAIAADABAABgAAAAAGA=
@@ -796,17 +804,61 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
+		<key>BiosReleaseDate</key>
+		<string>05/25/2019</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MM61.88Z.F000.B00.1905251343</string>
+		<key>Board-ID</key>
+		<string>Mac-031AEE4D24BFF0B1</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C07309101GUF1HCJA</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>Mini-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x10</string>
+		<key>EfiVersion</key>
+		<string>279.0.0.0.0</string>
+		<key>Family</key>
+		<string>Mac mini</string>
+		<key>FirmwareFeatures</key>
+		<string>0xE00DE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<false/>
+		<key>PlatformFeature</key>
+		<string>0x01</string>
 		<key>ProductName</key>
-		<string>MacBookAir6,2</string>
+		<string>Macmini6,1</string>
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
-		<key>Trust</key>
-		<true/>
+		<key>SerialNumber</key>
+		<string>C07KCUY5F9RK</string>
+		<key>SmUUID</key>
+		<string>AD809048-AC5C-45CB-BD60-C5EC90AE0BC9</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>#BacklightLevel</key>
 		<integer>0</integer>
+		<key>CustomUUID</key>
+		<string>AD809048-AC5C-45CB-BD60-C5EC90AE0BC9</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
