@@ -8,7 +8,7 @@ CPU型号：Intel i3-4150T
 
 显示器：AOC 2243W （DP转DVI连接）
 
-声卡：ALC283
+声卡：ALC283(注入ID 66，44也可以用)
 
 有线网卡：Intel i217v
 
